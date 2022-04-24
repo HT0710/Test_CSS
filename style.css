@@ -1,36 +1,50 @@
 body {
-    background: rgb(39,41,58,255);
+    margin: 0px;
+    background: rgb(39,41,58);
     text-align: center;
 }
 
 /* normal < class < id < style */
 
-h1 {
-    color: aqua;
-    font-size: 50px;
-    text-align: center;
+header {
+    position: relative;
 }
 
-.test {
+.head1 {
+    position: relative;
+    color: aqua;
+    margin: 15px 50px;
+    float: left;
     font-size: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 450px;
-    max-height: 160px;
+    border: 1px solid #ffffff;
+    max-width: 350px;
+    max-height: 100px;
     width: 100%;
     box-sizing: border-box;
-    padding: 0.4cm;
-    display: flex;
+    padding: 0.1cm;
     align-items: flex-start;
-    text-align: center;
     justify-content: center;
-    background: rgb(53, 55, 78);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    background: rgb(63, 66, 97);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
-.head_2 {
+
+.head2 {
+    position: relative;
+    margin: 15px 50px;
     color: greenyellow;
-    font-size: 60px;
+    float: right;
+    border: 1px solid #ffffff;
+    font-size: 50px;
+    max-width: 350px;
+    max-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.1cm;
+    align-items: flex-start;
+    justify-content: center;
+    background: rgb(63, 66, 97);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0);
 }
 
 .title {
@@ -48,10 +62,15 @@ h1 {
 }
 
 .MucLuc {
-    color: palevioletred
+    font-size: 30px;
+    margin-top: 0px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(233, 76, 128)
 }
 
 .list {
+    font-size: 20px;
     color:gold
 }
 
@@ -62,15 +81,21 @@ h1 {
 footer {
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
-    max-height: 160px;
+    max-width: 350px;
+    max-height: 10px;
     width: 100%;
     box-sizing: border-box;
-    padding: 24px 30px 32px;
+    padding: 100px 45px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     justify-content: center;
     background: rgb(53, 55, 78);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+#img_1 {
+    margin: 50px;
+    position:   absolute;
 }
